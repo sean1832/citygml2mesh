@@ -45,7 +45,7 @@ import json
 import re
 import sys
 import zipfile
-from collections.abc import Mapping
+from collections.abc import Mapping, Sequence
 from dataclasses import dataclass
 from pathlib import Path
 from typing import IO, Callable
@@ -641,7 +641,7 @@ def parse_themes(value: object) -> list[str]:
     form). Blank entries are dropped.
     """
     if isinstance(value, list):
-        raw: list[object] = list(value)
+        raw: Sequence[object] = value
     else:
         raw = str(value).split(",")
     themes: list[str] = []
