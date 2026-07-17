@@ -1,0 +1,7 @@
+data/
+out/
+*.glb
+*.b3dm
+venv/
+__pycache__/
+pipeline.json

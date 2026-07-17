@@ -1,0 +1,7 @@
+lxml>=6.1
+numpy>=2.0
+trimesh>=4.0
+mapbox_earcut>=2.0
+
+# typing only (editor/type-checker; not needed at runtime)
+lxml-stubs>=0.5

@@ -1,0 +1,25 @@
+{
+  "defaults": {
+    "format": "glb",
+    "up": "z",
+    "recenter": "dataset",
+    "themes": [
+      "bldg",
+      "dem"
+    ]
+  },
+  "jobs": [
+    {
+      "input": "data/13112_setagaya-ku_pref_2023_citygml_2_op.zip",
+      "output": "out/setagaya-ku"
+    },
+    {
+      "input": "data/13113_shibuya-ku_pref_2023_citygml_2_op.zip",
+      "output": "out/shibuya-ku"
+    },
+    {
+      "input": "data/13114_nakano-ku_pref_2023_citygml_2_op.zip",
+      "output": "out/nakano-ku"
+    }
+  ]
+}
